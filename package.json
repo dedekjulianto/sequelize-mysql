@@ -1,0 +1,24 @@
+{
+  "name": "sequelize-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dedekjulianto/sequelize-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dedekjulianto/sequelize-mysql/issues"
+  },
+  "homepage": "https://github.com/dedekjulianto/sequelize-mysql#readme",
+  "dependencies": {
+    "mysql": "^2.16.0",
+    "sequelize": "^4.38.0"
+  }
+}
