@@ -22,6 +22,10 @@ module.exports = (sequelize, DataTypes) => {
   }, {
   	classMethods: {
   		associate = function(models) {
+  			Task.belongsTo(models.Context, {
+  				foreignKey: 'ContextId',
+  				onDelete: 'CASCADE'
+  			});
     	// associations can be defined here
   	}
   	}
